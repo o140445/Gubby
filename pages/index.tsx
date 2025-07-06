@@ -39,7 +39,7 @@ export default function Home() {
         <title>Gubby World - The Funniest Roblox Game | GubbyGames</title>
         <meta
           name="description"
-          content="Play Gubby World – the funniest and most chaotic Roblox experience online. Built by fans, for fans."
+          content="Play Gubby World - the funniest and most chaotic Roblox experience! Transform, explore, and survive the madness. Join millions of players now."
         />
         <meta
           name="keywords"
@@ -64,9 +64,8 @@ export default function Home() {
         <Header />
 
         {/* Hero Section */}
-        <section className="text-center py-20 px-4 bg-white">
+        <section className="text-center py-20 px-4 bg-white h-[100vh]">
           <div className="max-w-4xl mx-auto">
-            <div className="text-8xl mb-6">🎮</div>
             <h1 className="text-6xl font-bold mb-6 text-blue-800">
               GUBBY WORLD
             </h1>
@@ -95,11 +94,16 @@ export default function Home() {
         </section>
 
         {/* About Gubby World */}
-        <section className="py-20 px-4 text-center bg-white">
-          <div className="max-w-4xl mx-auto">
+        <section className="py-20 px-4 text-gray-700 bg-gradient-to-br from-blue-50 to-cyan-50">
+          <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-4xl font-bold mb-6 text-blue-800">What is Gubby World?</h2>
-            <p className="text-xl text-gray-700 leading-relaxed">
-              Gubby World is a chaotic, funny, and unpredictable Roblox experience where you explore, transform, and try to survive the madness. Built by fans, for fans.
+            <p className="mb-4 text-lg">
+              <strong>Gubby World</strong> is a Roblox game where players transform into hilarious Gubbies and explore a chaotic open world. 
+              Loved by fans for its meme-worthy moments and crazy physics, Gubby World has become one of the most viral Roblox experiences online.
+            </p>
+            <p className="mb-4 text-lg">
+              Whether you're looking to survive the Gubbies, find all hidden Gubbys, or just laugh at the best Gubby memes, this site is your ultimate fan hub.
+              Play Gubby World today and join thousands of fans worldwide.
             </p>
           </div>
         </section>
@@ -116,6 +120,29 @@ export default function Home() {
                   answer={faq.answer}
                 />
               ))}
+            </div>
+          </div>
+        </section>
+
+
+
+        {/* What Players Are Saying */}
+        <section className="py-20 px-4 bg-white">
+          <div className="max-w-5xl mx-auto text-center">
+            <h2 className="text-3xl font-bold text-blue-800 mb-8">💬 What Players Are Saying</h2>
+            <div className="grid gap-6 md:grid-cols-3 text-left">
+              <div className="bg-blue-50 p-6 rounded-lg shadow border border-blue-200">
+                <p className="italic mb-3">“Gubby World is the most chaotic Roblox game I've ever played – and I love it! The transformations are hilarious!”</p>
+                <p className="font-semibold text-blue-700">– RobloxPlayer01</p>
+              </div>
+              <div className="bg-cyan-50 p-6 rounded-lg shadow border border-cyan-200">
+                <p className="italic mb-3">“I came for the memes, but I stayed for the madness. Gubby is an absolute masterpiece of chaos.”</p>
+                <p className="font-semibold text-cyan-700">– GubbyFan247</p>
+              </div>
+              <div className="bg-indigo-50 p-6 rounded-lg shadow border border-indigo-200">
+                <p className="italic mb-3">“This game is pure fun. My friends and I laughed for hours. Easily the funniest Roblox experience.”</p>
+                <p className="font-semibold text-indigo-700">– ChaosGamerX</p>
+              </div>
             </div>
           </div>
         </section>

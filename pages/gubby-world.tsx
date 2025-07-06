@@ -8,7 +8,7 @@ export default function GubbyWorld() {
     <>
       <Head>
         <title>Gubby World - Explore the Chaotic Universe | GubbyGames</title>
-        <meta name="description" content="Explore, transform, and run wild in the chaotic world of Gubby." />
+        <meta name="description" content="Explore Gubby World - the ultimate chaotic Roblox adventure! Transform into different characters, survive the madness, and discover hidden secrets." />
       </Head>
 
       <main className="min-h-screen bg-white text-gray-800">

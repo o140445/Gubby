@@ -8,7 +8,7 @@ export default function Memes() {
     <>
       <Head>
         <title>Gubby Memes - Viral Gubby Content & Funny Moments | GubbyGames</title>
-        <meta name="description" content="The funniest Gubby memes that went viral! Discover hilarious Gubby content from TikTok, Reddit, and more. Share your favorite Gubby moments!" />
+        <meta name="description" content="Discover the funniest Gubby memes that went viral! From TikTok to Reddit, explore hilarious Gubby World content and share your favorite moments." />
       </Head>
 
       <main className="min-h-screen bg-gradient-to-br from-red-50 to-orange-50 text-gray-800">
