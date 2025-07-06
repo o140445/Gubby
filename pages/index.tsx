@@ -64,7 +64,7 @@ export default function Home() {
         <Header />
 
         {/* Hero Section */}
-        <section className="text-center py-20 px-4 bg-white h-[100vh]">
+        <section className="text-center py-20 md:py-10 px-4 bg-white h-[100vh]">
           <div className="max-w-4xl mx-auto">
             <h1 className="text-6xl font-bold mb-6 text-blue-800">
               GUBBY WORLD
@@ -93,20 +93,241 @@ export default function Home() {
           </div>
         </section>
 
-        {/* About Gubby World */}
-        <section className="py-20 px-4 text-gray-700 bg-gradient-to-br from-blue-50 to-cyan-50">
-          <div className="max-w-3xl mx-auto text-center">
+          {/* About Gubby World */}
+          <section className="py-20 px-4 text-center bg-gradient-to-br from-blue-50 to-indigo-50">
+          <div className="max-w-4xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-blue-800">What is Gubby World?</h2>
-            <p className="mb-4 text-lg">
-              <strong>Gubby World</strong> is a Roblox game where players transform into hilarious Gubbies and explore a chaotic open world. 
-              Loved by fans for its meme-worthy moments and crazy physics, Gubby World has become one of the most viral Roblox experiences online.
+            <p className="text-xl text-gray-700 leading-relaxed mb-8">
+              Gubby World is a chaotic, funny, and unpredictable Roblox experience where you explore, transform, and try to survive the madness. Built by fans, for fans.
             </p>
-            <p className="mb-4 text-lg">
-              Whether you're looking to survive the Gubbies, find all hidden Gubbys, or just laugh at the best Gubby memes, this site is your ultimate fan hub.
-              Play Gubby World today and join thousands of fans worldwide.
-            </p>
+            
+            <div className="grid md:grid-cols-2 gap-8 text-left mt-12">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-2xl font-bold mb-4 text-blue-700">🎮 Game Features</h3>
+                <ul className="space-y-3 text-gray-700">
+                  <li className="flex items-start">
+                    <span className="text-blue-600 mr-2">•</span>
+                    <span><strong>Multiple Transformations:</strong> Transform into various characters with unique abilities</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-blue-600 mr-2">•</span>
+                    <span><strong>Open World Exploration:</strong> Discover hidden areas and secret locations</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-blue-600 mr-2">•</span>
+                    <span><strong>Multiplayer Chaos:</strong> Play with friends and create hilarious moments</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-blue-600 mr-2">•</span>
+                    <span><strong>Dynamic Events:</strong> Experience random events that change gameplay</span>
+                  </li>
+                </ul>
+              </div>
+              
+              <div className="bg-green-50 p-6 rounded-lg">
+                <h3 className="text-2xl font-bold mb-4 text-green-700">🏆 Why Players Love It</h3>
+                <ul className="space-y-3 text-gray-700">
+                  <li className="flex items-start">
+                    <span className="text-green-600 mr-2">•</span>
+                    <span><strong>Endless Fun:</strong> No two games are ever the same</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-green-600 mr-2">•</span>
+                    <span><strong>Community Driven:</strong> Regular updates based on player feedback</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-green-600 mr-2">•</span>
+                    <span><strong>Family Friendly:</strong> Safe for players of all ages</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-green-600 mr-2">•</span>
+                    <span><strong>Free to Play:</strong> No hidden costs or pay-to-win mechanics</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
         </section>
+
+
+        {/* Game Features Deep Dive */}
+        <section className="py-20 px-4  bg-white">
+          <div className="max-w-6xl mx-auto">
+            <h2 className="text-4xl font-bold text-center mb-12 text-blue-800">Why Gubby World is Different</h2>
+            <div className="grid md:grid-cols-2 gap-12">
+              <div className="space-y-8">
+                <div className="bg-white p-6 rounded-lg shadow-md">
+                  <h3 className="text-2xl font-bold mb-4 text-blue-700 flex items-center">
+                    <span className="mr-3">🎭</span>
+                    Revolutionary Transformation System
+                  </h3>
+                  <p className="text-gray-700 mb-4">
+                    Unlike any other Roblox game, Gubby World features a dynamic transformation system that changes not just your appearance, but your entire gameplay experience. Each transformation comes with unique abilities, movement patterns, and special interactions.
+                  </p>
+                  <ul className="text-sm text-gray-600 space-y-2">
+                    <li>• 50+ unique character transformations</li>
+                    <li>• Each transformation has special abilities</li>
+                    <li>• Dynamic physics-based interactions</li>
+                    <li>• Unlockable rare transformations</li>
+                  </ul>
+                </div>
+                
+                <div className="bg-white p-6 rounded-lg shadow-md">
+                  <h3 className="text-2xl font-bold mb-4 text-blue-700 flex items-center">
+                    <span className="mr-3">🌍</span>
+                    Massive Open World
+                  </h3>
+                  <p className="text-gray-700 mb-4">
+                    Explore a vast, ever-expanding world filled with secrets, hidden areas, and unexpected discoveries. From underground caves to floating islands, every corner of Gubby World holds something new to discover.
+                  </p>
+                  <ul className="text-sm text-gray-600 space-y-2">
+                    <li>• Multiple distinct biomes and areas</li>
+                    <li>• Hidden passages and secret rooms</li>
+                    <li>• Dynamic weather and time systems</li>
+                    <li>• Regular world expansions and updates</li>
+                  </ul>
+                </div>
+              </div>
+              
+              <div className="space-y-8">
+                <div className="bg-white p-6 rounded-lg shadow-md">
+                  <h3 className="text-2xl font-bold mb-4 text-blue-700 flex items-center">
+                    <span className="mr-3">🎯</span>
+                    Community-Driven Development
+                  </h3>
+                  <p className="text-gray-700 mb-4">
+                    Gubby World is built by the community, for the community. Player feedback directly influences game updates, new features, and content additions. Your voice matters in shaping the future of the game.
+                  </p>
+                  <ul className="text-sm text-gray-600 space-y-2">
+                    <li>• Weekly community polls and surveys</li>
+                    <li>• Player-suggested features implemented</li>
+                    <li>• Regular developer-player interactions</li>
+                    <li>• Community content creation tools</li>
+                  </ul>
+                </div>
+                
+                <div className="bg-white p-6 rounded-lg shadow-md">
+                  <h3 className="text-2xl font-bold mb-4 text-blue-700 flex items-center">
+                    <span className="mr-3">🚀</span>
+                    Advanced Technology
+                  </h3>
+                  <p className="text-gray-700 mb-4">
+                    Built with cutting-edge Roblox technology, Gubby World delivers smooth performance, stunning visuals, and innovative gameplay mechanics that push the boundaries of what's possible in Roblox.
+                  </p>
+                  <ul className="text-sm text-gray-600 space-y-2">
+                    <li>• Optimized for all devices and platforms</li>
+                    <li>• Advanced physics and animation systems</li>
+                    <li>• Real-time multiplayer synchronization</li>
+                    <li>• Cloud-based save and progress system</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+
+        {/* How to Play */}
+        <section className="py-20 px-4  bg-gray-50">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-4xl font-bold text-center mb-12 text-blue-800">How to Play Gubby World</h2>
+            <div className="grid md:grid-cols-2 gap-8">
+              <div>
+                <h3 className="text-2xl font-bold mb-6 text-blue-700">Getting Started</h3>
+                <div className="space-y-4">
+                  <div className="flex items-start">
+                    <div className="bg-blue-600 text-white rounded-full w-8 h-8 flex items-center justify-center text-sm font-bold mr-4 mt-1">1</div>
+                    <div>
+                      <h4 className="font-semibold text-gray-800">Create Your Account</h4>
+                      <p className="text-gray-600">Sign up for a free Roblox account if you don't have one already</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start">
+                    <div className="bg-blue-600 text-white rounded-full w-8 h-8 flex items-center justify-center text-sm font-bold mr-4 mt-1">2</div>
+                    <div>
+                      <h4 className="font-semibold text-gray-800">Join the Game</h4>
+                      <p className="text-gray-600">Click the "PLAY NOW" button above to enter Gubby World</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start">
+                    <div className="bg-blue-600 text-white rounded-full w-8 h-8 flex items-center justify-center text-sm font-bold mr-4 mt-1">3</div>
+                    <div>
+                      <h4 className="font-semibold text-gray-800">Explore & Transform</h4>
+                      <p className="text-gray-600">Discover the world and find transformation points</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start">
+                    <div className="bg-blue-600 text-white rounded-full w-8 h-8 flex items-center justify-center text-sm font-bold mr-4 mt-1">4</div>
+                    <div>
+                      <h4 className="font-semibold text-gray-800">Have Fun!</h4>
+                      <p className="text-gray-600">Enjoy the chaos and make new friends in the community</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <div>
+                <h3 className="text-2xl font-bold mb-6 text-blue-700">Pro Tips</h3>
+                <div className="space-y-4">
+                  <div className="bg-yellow-50 p-4 rounded-lg border border-yellow-200">
+                    <h4 className="font-semibold text-yellow-800 mb-2">🎯 Master Transformations</h4>
+                    <p className="text-gray-700">Each transformation has unique abilities. Experiment to find your favorites!</p>
+                  </div>
+                  <div className="bg-purple-50 p-4 rounded-lg border border-purple-200">
+                    <h4 className="font-semibold text-purple-800 mb-2">👥 Team Up</h4>
+                    <p className="text-gray-700">Playing with friends makes the experience even more chaotic and fun!</p>
+                  </div>
+                  <div className="bg-green-50 p-4 rounded-lg border border-green-200">
+                    <h4 className="font-semibold text-green-800 mb-2">🔍 Explore Everything</h4>
+                    <p className="text-gray-700">Hidden areas often contain rare transformations and secrets!</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+      
+        {/* Player Reviews */}
+        <section className="py-20 px-4 bg-white">
+          <div className="max-w-6xl mx-auto">
+            <h2 className="text-4xl font-bold text-center mb-12 text-blue-800">What Players Say</h2>
+            <div className="grid md:grid-cols-3 gap-6">
+              <div className="bg-white p-6 rounded-lg shadow-md border border-blue-200">
+                <div className="flex items-center mb-4">
+                  <div className="text-2xl mr-2">⭐⭐⭐⭐⭐</div>
+                  <span className="text-sm text-gray-500">5.0/5</span>
+                </div>
+                <p className="italic mb-3 text-gray-700">"Gubby World is the most chaotic Roblox game I've ever played – and I love it! The transformations are hilarious and the community is amazing."</p>
+                <p className="font-semibold text-blue-700">– RobloxPlayer01</p>
+                <p className="text-xs text-gray-500">Verified Player</p>
+              </div>
+              
+              <div className="bg-white p-6 rounded-lg shadow-md border border-blue-200">
+                <div className="flex items-center mb-4">
+                  <div className="text-2xl mr-2">⭐⭐⭐⭐⭐</div>
+                  <span className="text-sm text-gray-500">5.0/5</span>
+                </div>
+                <p className="italic mb-3 text-gray-700">"My kids love this game! It's safe, fun, and keeps them entertained for hours. The developers really care about the community."</p>
+                <p className="font-semibold text-blue-700">– GamingMom2024</p>
+                <p className="text-xs text-gray-500">Parent</p>
+              </div>
+              
+              <div className="bg-white p-6 rounded-lg shadow-md border border-blue-200">
+                <div className="flex items-center mb-4">
+                  <div className="text-2xl mr-2">⭐⭐⭐⭐⭐</div>
+                  <span className="text-sm text-gray-500">5.0/5</span>
+                </div>
+                <p className="italic mb-3 text-gray-700">"The best part is that it's completely free! No pay-to-win, no annoying ads. Just pure chaotic fun with friends."</p>
+                <p className="font-semibold text-blue-700">– ChaosLover99</p>
+                <p className="text-xs text-gray-500">Regular Player</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+  
 
         {/* FAQ Section */}
         <section className="py-20 px-4 bg-gray-50">
@@ -120,29 +341,6 @@ export default function Home() {
                   answer={faq.answer}
                 />
               ))}
-            </div>
-          </div>
-        </section>
-
-
-
-        {/* What Players Are Saying */}
-        <section className="py-20 px-4 bg-white">
-          <div className="max-w-5xl mx-auto text-center">
-            <h2 className="text-3xl font-bold text-blue-800 mb-8">💬 What Players Are Saying</h2>
-            <div className="grid gap-6 md:grid-cols-3 text-left">
-              <div className="bg-blue-50 p-6 rounded-lg shadow border border-blue-200">
-                <p className="italic mb-3">“Gubby World is the most chaotic Roblox game I've ever played – and I love it! The transformations are hilarious!”</p>
-                <p className="font-semibold text-blue-700">– RobloxPlayer01</p>
-              </div>
-              <div className="bg-cyan-50 p-6 rounded-lg shadow border border-cyan-200">
-                <p className="italic mb-3">“I came for the memes, but I stayed for the madness. Gubby is an absolute masterpiece of chaos.”</p>
-                <p className="font-semibold text-cyan-700">– GubbyFan247</p>
-              </div>
-              <div className="bg-indigo-50 p-6 rounded-lg shadow border border-indigo-200">
-                <p className="italic mb-3">“This game is pure fun. My friends and I laughed for hours. Easily the funniest Roblox experience.”</p>
-                <p className="font-semibold text-indigo-700">– ChaosGamerX</p>
-              </div>
             </div>
           </div>
         </section>
