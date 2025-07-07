@@ -2,7 +2,6 @@ import Head from "next/head";
 import Link from "next/link";
 import { Header } from "../components/Header";
 import { Footer } from "../components/Footer";
-import { Carousel } from "../components/Carousel";
 import { FAQItem } from "../components/FAQItem";
 
 export default function Home() {
@@ -74,11 +73,10 @@ export default function Home() {
             </p>
 
             <div className="mb-12">
-              <Carousel
-                images={["/images/noFilter5.webp", "/images/noFilter6.webp", "/images/noFilter7.webp"]}
-                altTexts={["Explore Gubby World", "Transform & Survive", "Gubby Madness"]}
-                autoPlay={true}
-                interval={4000}
+              <img 
+                src="/images/noFilter5.webp" 
+                alt="Gubby World Gameplay - Explore and Transform" 
+                className="md:h-96 h-64 mx-auto rounded-xl shadow-2xl"
               />
             </div>
 

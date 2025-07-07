@@ -6,7 +6,7 @@ export function Header() {
     <header className="bg-white shadow-lg border-b border-blue-100">
       <nav className="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
         <Link href="/" className="text-2xl font-bold text-blue-700 hover:text-blue-800 transition-colors flex items-center gap-2">
-          <Image src="/images/Gubby.webp" alt="GubbyGames Logo" width={30} height={30} className="w-10 h-10"/>
+          <Image src="/images/Gubby.png" alt="GubbyGames Logo" width={30} height={30} className="w-10 h-10"/>
           <span className="text-2xl font-bold text-blue-700 hover:text-blue-800 transition-colors">GubbyGames</span>
         </Link>
         <div className="hidden md:flex space-x-8 text-sm">
